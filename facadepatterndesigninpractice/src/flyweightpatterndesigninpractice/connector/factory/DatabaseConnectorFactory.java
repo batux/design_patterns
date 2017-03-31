@@ -7,6 +7,13 @@ import flyweightpatterndesigninpractice.database.connectors.DatabaseConnector;
 import flyweightpatterndesigninpractice.database.connectors.DatabaseType;
 import flyweightpatterndesigninpractice.database.connectors.MySQLDatabaseConnector;
 
+/**
+ * 
+ * @author Batuhan Duzgun (batux) - Computer Engineer / Industrial Engineer
+ * 
+ *
+ */
+
 public class DatabaseConnectorFactory {
 	
 	private static final HashMap<DatabaseType, DatabaseConnector> databaseConnectors = new HashMap<DatabaseType, DatabaseConnector>();
